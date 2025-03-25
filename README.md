@@ -77,6 +77,6 @@ The ErrorChecker class scans the source code and detects syntax errors.
 Reports missing semicolons, unmatched braces, and invalid identifiers.
 
 ## Acknowledgments
-[Asim Kirmani](https://github.com/arshaqK)
+[Arshaq Kirmani](https://github.com/arshaqK)
 
 
