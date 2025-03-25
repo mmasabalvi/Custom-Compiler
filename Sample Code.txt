@@ -1,0 +1,35 @@
+int counter = 100;             
+decimal value = 123.45678;      
+bool flag = 7;               
+char letter = 'a';              
+
+int sum = counter + 50;         
+int diff = counter - 30;       
+decimal prod = value * 2;       
+decimal quot = value / 2;       
+int modResult = counter % 3;    
+int powerint = 2^3;             
+decimal powerDec = value^2;     
+   int    spaced    =     42   ;
+
+/*
+    This is a multi-line comment.
+    It includes extra spaces, blank lines, and even symbols.
+    
+    Make sure the lexer properly ignores all of this.
+*/
+
+if (counter > 50) {
+    int localvar = counter + 10;
+    print("Local variable value: " + localvar);
+    
+    if (flag == true) {
+        decimal nestedval = 0.00001;   
+        print("Nested local decimal: " + nestedval);
+    }
+}
+
+int Invalid = 5;  
+
+int user_input = input("Enter a number: ");
+print("You entered: " + user_input);
